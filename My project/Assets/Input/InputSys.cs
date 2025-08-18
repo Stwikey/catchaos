@@ -1,12 +1,12 @@
 using UnityEngine;
-using UnityEnging.InputSystem;
-public class Input : MonoBehaviour
+using UnityEngine.InputSystem;
+public class InputSys : MonoBehaviour
 {
     public static Vector2 Movement;
     private InputAction moveAction;
     private PlayerInput playerInput;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    priavet void Awake()
+    private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions["Move"];
