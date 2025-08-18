@@ -3,6 +3,9 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] private float depth = -5f;
+    [SerializeField] private float Xaxis = 0;
+    [SerializeField] private float Yaxis = 0;
+
     public Transform playerPos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,6 +16,6 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = playerPos.transform.position + new Vector3 (0f, 0f, depth);
+        transform.position = playerPos.transform.position + new Vector3 (Xaxis, Yaxis, depth);
     }
 }

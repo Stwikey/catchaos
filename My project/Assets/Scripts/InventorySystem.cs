@@ -3,30 +3,55 @@ using System.Collections.Generic;
 
 public class InventorySystem : MonoBehaviour
 {
-    public List<string> InventoryNames = new List<string> ();
-    public List<GameObject> InventoryObjects = new List<GameObject> ();
-    public List<int> InventoryCount = new List<int> ();
+    public List<string> InventoryNames = new List<string>();
+    public List<GameObject> InventoryObjects = new List<GameObject>();
+    public List<int> InventoryCount = new List<int>();
+    public GameObject bar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void AddToInventory(GameObject obj){
+    public void AddToInventory(GameObject obj)
+    {
         int index = InventoryNames.IndexOf(obj.gameObject.name);
-        if (index == -1){
+        if (index == -1)
+        {
             InventoryNames.Add(obj.gameObject.name);
             InventoryCount.Add(0);
-        }else{
+            InventoryObjects.Add(obj.gameObject);
+        }
+        else
+        {
             InventoryCount[index]++;
         }
-      
+        UpdateInventory();
+
+    }
+
+    private void OnMouseDown() {
+        Debug.Log("click");
+        bar.SetActive(!bar.gameObject.activeSelf);
+    }
+
+    private void UpdateInventory() {
+        for (int i = 0; i < InventoryObjects.Count; i++)
+        {
+            SpriteRenderer img = InventoryObjects[i].GetComponent<SpriteRenderer>();
+            if (img == null)
+            {
+                Debug.Log("img is null");
+            }
+            SpriteRenderer slot = transform.Find("Bar/" + i.ToString()).GetComponent<SpriteRenderer>();
+            slot.sprite = img.sprite;
+        }
     }
 
 
