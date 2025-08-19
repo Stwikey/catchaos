@@ -25,7 +25,7 @@ public class InventorySystem : MonoBehaviour
         if (index == -1)
         {
             InventoryNames.Add(obj.gameObject.name);
-            InventoryCount.Add(0);
+            InventoryCount.Add(1);
             InventoryObjects.Add(obj.gameObject);
         }
         else
@@ -45,12 +45,9 @@ public class InventorySystem : MonoBehaviour
         for (int i = 0; i < InventoryObjects.Count; i++)
         {
             SpriteRenderer img = InventoryObjects[i].GetComponent<SpriteRenderer>();
-            if (img == null)
-            {
-                Debug.Log("img is null");
-            }
             SpriteRenderer slot = transform.Find("Bar/" + i.ToString()).GetComponent<SpriteRenderer>();
             slot.sprite = img.sprite;
+            transform.Find("Bar/" + i.ToString()).GetComponent<Slots>().UpdateText(InventoryCount[i].ToString());
         }
     }
 
