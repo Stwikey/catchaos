@@ -45,7 +45,8 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    public void AnimationChecker() {
+    public void AnimationChecker()
+    {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             anim.SetBool("isFacingBackward", true);
@@ -56,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            //anim.SetBool("isFacingBackward", true);
+            anim.SetBool("isFacingBackward", true);
             anim.SetBool("isWalking", true);
         }
 
@@ -64,8 +65,6 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
             anim.SetBool("isFacingBackward", false);
-
-
 
         }
 
@@ -80,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-            //anim.SetBool("isFacingForward", true);
+            anim.SetBool("isFacingForward", true);
             anim.SetBool("isWalking", true);
         }
 
@@ -102,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            //anim.SetBool("isFacingSide", true);
+            anim.SetBool("isFacingSide", true);
             anim.SetBool("isWalking", true);
         }
 
@@ -111,26 +110,5 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isFacingSide", false);
             anim.SetBool("isWalking", false);
         }
-
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            anim.SetBool("isFacingBackward", false);
-            anim.SetBool("isFacingForward", false);
-            anim.SetBool("isFacingSide", true);
-
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            //anim.SetBool("isFacingSide", true);
-            anim.SetBool("isWalking", true);
-        }
-
-        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow))
-        {
-            anim.SetBool("isFacingSide", false);
-            anim.SetBool("isWalking", false);
-        }
-
-
     }
 }
