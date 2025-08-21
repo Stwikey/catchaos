@@ -8,6 +8,8 @@ public class InventorySystem : MonoBehaviour
     public List<int> InventoryCount = new List<int>();
     public GameObject bar;
     public GameObject hover;
+
+    public string Selected = "Nothing";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,7 +41,6 @@ public class InventorySystem : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("click");
         bar.SetActive(!bar.gameObject.activeSelf);
     }
 
@@ -50,12 +51,14 @@ public class InventorySystem : MonoBehaviour
             SpriteRenderer img = InventoryObjects[i].GetComponent<SpriteRenderer>();
             SpriteRenderer slot = transform.Find("Bar/" + i.ToString()).GetComponent<SpriteRenderer>();
             slot.sprite = img.sprite;
+            slot.gameObject.GetComponent<Slots>().idName = InventoryObjects[i].gameObject.name;
             transform.Find("Bar/" + i.ToString()).GetComponent<Slots>().UpdateText(InventoryCount[i].ToString());
         }
     }
 
     void OnMouseOver()
     {
+        Debug.Log("?");
         hover.SetActive(true);
     }
 
