@@ -27,17 +27,18 @@ public class CatObject : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
+        if (other.gameObject.name == "HousePoint")
+        {
+                Debug.Log("going in");
+                this.gameObject.SetActive(false);
+                house.GetComponent<House>().catCount++;
+        }
+
         if (other.gameObject.name == "House")
         {
             Vector3 catPos = transform.position;
             Vector3 housePos = other.gameObject.transform.position;
             Vector3 direction = (housePos - catPos).normalized;
-            if (direction == new Vector3(0f, 0f, 0f))
-            {
-                Debug.Log("going in");
-                this.gameObject.SetActive(false);
-                house.GetComponent<House>().catCount++;
-            }
             if (direction.x > 0f)
             {
                 transform.localScale = new Vector3(-2.5f, 2.5f, 2.5f);
