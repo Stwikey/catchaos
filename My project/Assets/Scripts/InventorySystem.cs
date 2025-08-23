@@ -58,7 +58,6 @@ public class InventorySystem : MonoBehaviour
 
     void OnMouseOver()
     {
-        Debug.Log("?");
         hover.SetActive(true);
     }
 

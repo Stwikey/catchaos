@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class House : MonoBehaviour
 {
     public int catCount;
@@ -14,7 +14,7 @@ public class House : MonoBehaviour
     {
         if (catCount == 8)
         {
-            Debug.Log("TheEnd");
+            SceneManager.LoadScene("EndScene");
         }
     }
 
