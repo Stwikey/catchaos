@@ -51,6 +51,7 @@ public class InventorySystem : MonoBehaviour
             SpriteRenderer img = InventoryObjects[i].GetComponent<SpriteRenderer>();
             SpriteRenderer slot = transform.Find("Bar/" + i.ToString()).GetComponent<SpriteRenderer>();
             slot.sprite = img.sprite;
+            slot.sortingOrder = 10;
             slot.gameObject.GetComponent<Slots>().idName = InventoryObjects[i].gameObject.name;
             transform.Find("Bar/" + i.ToString()).GetComponent<Slots>().UpdateText(InventoryCount[i].ToString());
         }
