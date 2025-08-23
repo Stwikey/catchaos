@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2495c9474c90b4c388abf86be5b98a57
+guid: a1ea7ffd504a04c3c80ef6b4bd5e89a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8610565575992400378
-    second: Sand_0
+      213: 438769453518626156
+    second: Slide_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sand_0
+      name: Slide_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 6
-        width: 91
-        height: 55
+        x: 30
+        y: 11
+        width: 95
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af9db3845cfde7770800000000000000
-      internalID: 8610565575992400378
+      spriteID: c6d15474e72d61600800000000000000
+      internalID: 438769453518626156
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sand_0: 8610565575992400378
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
