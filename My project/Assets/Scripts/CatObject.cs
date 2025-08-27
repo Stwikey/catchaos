@@ -9,6 +9,7 @@ public class CatObject : MonoBehaviour
     Animator anim;
 
     public GameObject house;
+    public AudioManager audiomanager;
 
     [SerializeField] private float speed = 0.05f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -61,6 +62,7 @@ public class CatObject : MonoBehaviour
         }
         else if (other.gameObject.name == "Player")
         {
+            audiomanager.PlaySFX(audiomanager.meow);
             if (inventory.gameObject.GetComponent<InventorySystem>().Selected == ItemName)
             {
                 Vector3 catPos = transform.position;

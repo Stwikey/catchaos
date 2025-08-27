@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -153,7 +153,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -174,6 +174,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -181,10 +194,10 @@ TextureImporter:
       name: NumSheet_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 28
-        width: 33
-        height: 29
+        x: 0
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +216,10 @@ TextureImporter:
       name: NumSheet_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 12
-        width: 34
-        height: 38
+        x: 96
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +238,10 @@ TextureImporter:
       name: NumSheet_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 2
-        width: 27
-        height: 40
+        x: 192
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +260,10 @@ TextureImporter:
       name: NumSheet_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 27
-        width: 8
-        height: 30
+        x: 288
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +282,10 @@ TextureImporter:
       name: NumSheet_4
       rect:
         serializedVersion: 2
-        x: 125
-        y: 12
-        width: 34
-        height: 38
+        x: 384
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +304,10 @@ TextureImporter:
       name: NumSheet_5
       rect:
         serializedVersion: 2
-        x: 156
-        y: 2
-        width: 27
-        height: 40
+        x: 480
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +326,10 @@ TextureImporter:
       name: NumSheet_6
       rect:
         serializedVersion: 2
-        x: 204
-        y: 26
-        width: 25
-        height: 30
+        x: 576
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +348,10 @@ TextureImporter:
       name: NumSheet_7
       rect:
         serializedVersion: 2
-        x: 221
-        y: 12
-        width: 34
-        height: 38
+        x: 672
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +370,10 @@ TextureImporter:
       name: NumSheet_8
       rect:
         serializedVersion: 2
-        x: 252
-        y: 2
-        width: 27
-        height: 40
+        x: 768
+        y: 0
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,407 +388,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: NumSheet_9
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 26
-        width: 25
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6a9eec761a702b10800000000000000
-      internalID: 1954696475282676331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_10
-      rect:
-        serializedVersion: 2
-        x: 317
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b284b494063fc33a0800000000000000
-      internalID: -6684200152052578261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_11
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 077868066e9903470800000000000000
-      internalID: 8372360922022709104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_12
-      rect:
-        serializedVersion: 2
-        x: 394
-        y: 25
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65bfae27cfd31b120800000000000000
-      internalID: 2427789828598463318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_13
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2eeee081cfeb35e20800000000000000
-      internalID: 3338221738756337378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_14
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd961d98d5c68bd40800000000000000
-      internalID: 5600345285635172831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_15
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 25
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05bdc6b80630275f0800000000000000
-      internalID: -760541673881281712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_16
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c5e2971c19c96e20800000000000000
-      internalID: 3344425320791074240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_17
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42b31ceb896a93510800000000000000
-      internalID: 1529436723434568484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_18
-      rect:
-        serializedVersion: 2
-        x: 586
-        y: 23
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a0fbda78549c54a0800000000000000
-      internalID: -6603239845892722525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_19
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8691724557467be20800000000000000
-      internalID: 3366269701568534888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_20
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fa1223f7c8ce0690800000000000000
-      internalID: -7633943557243266319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_21
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 24
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef8187f9b016654a0800000000000000
-      internalID: -6604985100944271106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_22
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4202d1bc610ac5220800000000000000
-      internalID: 2476029914904338468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_23
-      rect:
-        serializedVersion: 2
-        x: 732
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca845110d82b8aa60800000000000000
-      internalID: 7685589082786056364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_24
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 23
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99f3393cafb139c20800000000000000
-      internalID: 3211941723082276761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_25
-      rect:
-        serializedVersion: 2
-        x: 797
-        y: 12
-        width: 34
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88258349af9eb33f0800000000000000
-      internalID: -919884436429319544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NumSheet_26
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 2
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b915dabc9bec6180800000000000000
-      internalID: -9120656086950143566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6c8c90b446404cb1909b24814dba26f
     internalID: 0
     vertices: []
     indices: 
@@ -787,31 +404,13 @@ TextureImporter:
     nameFileIdTable:
       NumSheet_0: -5612812712273760030
       NumSheet_1: 6857910204405247474
-      NumSheet_10: -6684200152052578261
-      NumSheet_11: 8372360922022709104
-      NumSheet_12: 2427789828598463318
-      NumSheet_13: 3338221738756337378
-      NumSheet_14: 5600345285635172831
-      NumSheet_15: -760541673881281712
-      NumSheet_16: 3344425320791074240
-      NumSheet_17: 1529436723434568484
-      NumSheet_18: -6603239845892722525
-      NumSheet_19: 3366269701568534888
       NumSheet_2: -4196663269532531932
-      NumSheet_20: -7633943557243266319
-      NumSheet_21: -6604985100944271106
-      NumSheet_22: 2476029914904338468
-      NumSheet_23: 7685589082786056364
-      NumSheet_24: 3211941723082276761
-      NumSheet_25: -919884436429319544
-      NumSheet_26: -9120656086950143566
       NumSheet_3: 3804856107232034850
       NumSheet_4: 3003724870953682141
       NumSheet_5: -5203086864791423293
       NumSheet_6: 1020565332570996994
       NumSheet_7: 1619806214895792691
       NumSheet_8: -4733633920299863864
-      NumSheet_9: 1954696475282676331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
