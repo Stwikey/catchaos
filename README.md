@@ -19,7 +19,7 @@ I made this game for Girls Got Game Jam where the theme was "attract". I wanted 
 This project was made with Unity for the code and Aseprite for the art! The BGM is a free asset found online.
 
 
-I mostly struggled with using Unity since it was a new software for me, and especially about how the physics works with the colliders. I was able to leearn more about Unity and get used to how it works which will be helpful for future projects!
+I mostly struggled with using Unity since it was a new software for me, and especially about how the physics works with the colliders. I was able to learn more about Unity and get used to how it works which will be helpful for future projects!
 
 
 <img width="794" height="446" alt="image" src="https://github.com/user-attachments/assets/c6b9b679-a2ff-4ffc-86c5-b71361b90f9e" />
