@@ -30,6 +30,7 @@ I mostly struggled with using Unity since it was a new software for me, and espe
 
 <img width="794" height="476" alt="image" src="https://github.com/user-attachments/assets/909f9ee3-9649-4e32-a0a2-518e8b00b00a" />
 
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 
 
